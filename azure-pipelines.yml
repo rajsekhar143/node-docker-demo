@@ -25,6 +25,7 @@ steps:
     repository: 'acrdev184'
     command: 'build'
     Dockerfile: '**/Dockerfile' 
+    
 - task: Docker@2
   inputs:
     containerRegistry: 'svc-acr'
